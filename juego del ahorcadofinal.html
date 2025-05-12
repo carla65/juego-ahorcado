@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+<title>Juego del ahorcado</title>
+<link rel="stylesheet" href="ahorcado.css">
+    </head>
+    <body>
+        <h1> Juego del ahorcado</h1>
+        <div>
+            <img id="rip" src="imagen ahorcado/rip.jpg" alt="Has perdido" style= "display: inline; width: 200px; align-content: center;">
+            <p id="palabra-oculta">_ _ _ _ _</p>
+            <p id="intentos-restantes">Intentos restantes: 6</p>
+            <input type="text" id="letra-input" maxlength="1" />
+            <button onclick="jugar()">Adivinar</button>
+            <p id="resultado"></p>
+        </div>
+        <button onclick="iniciarJuego()">Iniciar Juego</button>
+        </div>
+    
+        <script src="Ahoracado.js"> </script>
+    </body>
+</html>
